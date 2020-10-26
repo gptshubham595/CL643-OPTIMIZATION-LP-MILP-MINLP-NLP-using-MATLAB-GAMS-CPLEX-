@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="LP.mod" type="model">
+			</ref>
+			<ref name="LP.ops" type="setting">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
