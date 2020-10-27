@@ -6,10 +6,12 @@
 
  dvar int+ x;
  dvar int+ y;
+ dvar int+ z;
+ dvar int+ w;
  //z=600-x
  //w=400-y
  
- minimize 5*x+10*y+15*(600-x)+4*(400-y);
+ minimize 5*x+10*y+15*z+4*w;
  
  
  subject to{
@@ -19,4 +21,6 @@
    y<=400;
    x>=0;
    y>=0;
+   x+z==600;
+   w+y==400;
    }
