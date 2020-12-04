@@ -1,25 +1,3 @@
-$title LogMIP User's Manual Example 4 - Job Shop Scheduling (LOGMIP4,SEQ=337)
-
-$onText
-This model solves a jobshop scheduling, which has a set of jobs (5)
-which must be processed in sequence of stages (5) but not all jobs
-require all stages. A zero wait transfer policy is assumed between
-stages. To obtain a feasible solution it is necessary to eliminate
-all clashes between jobs. It requires that no two jobs be performed
-at any stage at any time. The objective is to minimize the makespan,
-the time to complete all jobs.
-
-References:
-
-Raman & Grossmann, Computers and Chemical Engineering 18, 7, p.563-578, 1994.
-
-Aldo Vecchietti, LogMIP User's Manual, 2007
-http://www.logmip.ceride.gov.ar/files/pdfs/logmip_manual.pdf
-
-Keywords: extended mathematical programming, disjunctive programming, job shop scheduling,
-          execution sequence
-$offText
-
 Set 
    I 'jobs'   / A, B, C, D, E, F, G /
    J 'stages' / 1*5 /;
